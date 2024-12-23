@@ -7,6 +7,7 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 class Pair:
     """Класс, представляющий пару целых чисел."""
 
@@ -76,7 +77,7 @@ result_pair = pair1 + pair2
 print(result_pair)  # Output: Pair(7, 3)
 
 money1 = Money(5, 150)  # 5 руб. и 150 копеек = 6 руб. и 50 копеек
-money2 = Money(3, 75)   # 3 руб. и 75 копеек
+money2 = Money(3, 75)  # 3 руб. и 75 копеек
 result_money = money1 + money2
 print(result_money)  # Output: Money(10 руб., 25 коп.)
 
